@@ -61,6 +61,7 @@ test.describe('Testing the CSS Cascade exercise', () => {
     await expect(header).toHaveCSS('text-align', 'center');
   });
 
+  
   test('The styles of the section element must match the task', async () => {
     const section = page.locator('main > section').first();
 
